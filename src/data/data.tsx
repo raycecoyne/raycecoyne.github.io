@@ -112,7 +112,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Current Student. Formerly Chief Technology Officer for Texas Exchange Bank.
+  description: `Current Student. Former Chief Technology Officer of Texas Exchange Bank.
   My latest projects have focused on blockchain, payments, and fraud detection. 
   I enjoy working with entrepreneurs and dreamers, and especially like helping them bring their dreams to life.`,
   aboutItems: [
@@ -142,7 +142,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Web3',
-        level: 6,
+        level: 7,
       },
     ],
   },
@@ -292,9 +292,7 @@ export const experience: TimelineItem[] = [
     title: 'Chief Technology Officer',
     content: (
       <p>
-        Reported to the CEO and Board of Directors on technology strategy, policy, and competitiveness 
-        <br></br><br></br>
-        Founded the bank's analytics division and led cross-functional teams across engineering, analytics, and operations 
+        Founded the bank's analytics division and led cross-functional teams across engineering, finance, and operations 
         in the turnaround and growth of the portfolio company
       </p>
     ),
@@ -306,8 +304,6 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
          Developed trading strategies across sectors and themes including capital structure arbitrage, algorithmic strategies, and multileg options trades.
-         <br></br><br></br>
-         Led system development for order execution technologies and quantitative research systems
       </p>
     ),
   },
