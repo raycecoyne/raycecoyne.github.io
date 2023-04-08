@@ -84,7 +84,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time I enjoy <strong className="text-stone-100">hiking</strong> through alpine forests,
         rocking out to <strong className="text-stone-100">musicals</strong>, and thinking about the 
-        <strong className="text-stone-100"> future of finance</strong>.
+        <strong className="text-stone-100"> global financial system</strong>.
       </p>
     </>
   ),
@@ -113,8 +113,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Current Student. Former Chief Technology Officer of Texas Exchange Bank.
-  My latest projects have focused on blockchain, payments, and fraud detection. 
-  I enjoy working with entrepreneurs and dreamers, and especially like helping them bring their dreams to life.`,
+  My latest projects have focused on interest rates, cryptography, and fraud detection.`,
   aboutItems: [
     {label: 'Location', text: 'Stanford, CA', Icon: MapIcon},
     //{label: 'Age', text: '29', Icon: CalendarIcon},
@@ -133,15 +132,15 @@ export const skills: SkillGroup[] = [
     name: 'Business',
     skills: [
       {
-        name: 'Fintech',
-        level: 9,
+        name: 'Banks',
+        level: 10,
       },
       {
-        name: 'Capital Markets',
+        name: 'Interest Rates and Derivatives',
         level: 8,
       },
       {
-        name: 'Web3',
+        name: 'Capital Markets',
         level: 7,
       },
     ],
