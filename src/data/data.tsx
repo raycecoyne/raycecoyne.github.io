@@ -26,7 +26,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/blank.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -112,8 +112,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Current Student. Former Chief Technology Officer of Texas Exchange Bank.
-  My latest projects have focused on interest rates, cryptography, and fraud detection.`,
+  description: `Founder and Student. My latest research is focused on interest rates and the US banking system, 
+  and I am fortunate enough to be working on this with two of my best friends.`,
   aboutItems: [
     {label: 'Location', text: 'Stanford, CA', Icon: MapIcon},
     //{label: 'Age', text: '29', Icon: CalendarIcon},
@@ -270,11 +270,7 @@ export const education: TimelineItem[] = [
     date: 'In Progress',
     location: 'MBA',
     title: 'Stanford University, Graduate School of Business',
-    content: <p>
-      Interesting Classes: Financial Restructuring, Optimization & Simulation, Cryptography
-      <br></br><br></br>
-      Head of Research @ Stanford Blockchain Accelerator
-      </p>,
+    content: <p></p>,
   },
   {
     date: 'A while back',
@@ -285,6 +281,17 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: '2023',
+    location: 'Hedgehog',
+    title: 'Founder',
+    content: (
+      <p>
+        Hedgehog delivers an innovative, fully automated interest rate risk management solution for banks. 
+        Our system integrates with your bank policies and data to deliver accurate insights with complete documentation in seconds.
+      </p>
+    ),
+  },
   {
     date: '2020-2022',
     location: 'Texas Exchange Bank',
