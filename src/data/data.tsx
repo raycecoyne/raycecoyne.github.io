@@ -70,7 +70,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Hi there, I'm Rayce`,
+  name: `Hi, I'm Rayce`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -118,7 +118,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Stanford, CA', Icon: MapIcon},
     //{label: 'Age', text: '29', Icon: CalendarIcon},
     //{label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Being Outside, Brazilian Jiu-Jitsu, Building Computers', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Being Outside, Brazilian Jiu-Jitsu, Story Games', Icon: SparklesIcon},
     {label: 'School', text: 'Stanford University', Icon: AcademicCapIcon},
     {label: 'Organizations', text: 'Stanford Blockchain Accelerator', Icon: OfficeBuildingIcon},
   ],
