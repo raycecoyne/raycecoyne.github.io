@@ -74,17 +74,17 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am a leader and builder with a proven track record of driving innovation in technology and finance. 
-        After several years working with my friends to build an awesome company, I chose to go back to school so I could work on myself and explore my passions. 
+        I am passionate about driving innovation in technology and finance to make a more stable financial system. 
+        I founded Hedgehog to prevent bank failures, and help banks across the country make better decisions and better serve their customers. 
         <br></br>
         <br></br>
-        In addition to hitting the books, I spend a lot of time thinking about markets and entrepreneurship. 
-        If you want to geek out about option gamma, shill your favorite meme stock, or build the next killer app - hit me up.
+        In addition to banking, I spend a lot of time thinking about monetary and fiscal policy on money markets and the broader economy. 
+        If you want to geek out about any of these topics - hit me up.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time I enjoy <strong className="text-stone-100">hiking</strong> through alpine forests,
-        rocking out to <strong className="text-stone-100">musicals</strong>, and thinking about the 
-        <strong className="text-stone-100"> global financial system</strong>.
+        rocking out to <strong className="text-stone-100">musicals</strong>, and building 
+        <strong className="text-stone-100"> computers</strong>.
       </p>
     </>
   ),
@@ -287,8 +287,8 @@ export const experience: TimelineItem[] = [
     title: 'Founder',
     content: (
       <p>
-        Hedgehog delivers an innovative, fully automated interest rate risk management solution for banks. 
-        Our system integrates with your bank policies and data to deliver accurate insights with complete documentation in seconds.
+        Hedgehog is committed to preventing bank failures with fully automated interest rate risk (IRR) software any bank can use. 
+        Our modeling software integrates with bank policies and data to deliver tailored, accurate insights with complete documentation in seconds.
       </p>
     ),
   },
