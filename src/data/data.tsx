@@ -1,11 +1,11 @@
 import {
-  AcademicCapIcon,
+  //AcademicCapIcon,
   //CalendarIcon,
   //DownloadIcon,
   //FlagIcon,
   MapIcon,
   //OfficeBuildingIcon,
-  SparklesIcon,
+  //SparklesIcon,
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
