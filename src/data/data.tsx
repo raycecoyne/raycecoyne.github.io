@@ -4,7 +4,7 @@ import {
   //DownloadIcon,
   //FlagIcon,
   MapIcon,
-  OfficeBuildingIcon,
+  //OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
 
@@ -15,7 +15,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
 //import heroImage from '../images/header-background.webp';
 import heroImage from '../images/background.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage1 from '../images/portfolio/hedgehog.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -26,7 +26,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/blank.jpg';
+import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -74,11 +74,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am passionate about driving innovation in technology and finance to make a more stable financial system. 
-        I founded Hedgehog to prevent bank failures, and help banks across the country make better decisions and better serve their customers. 
+        I am passionate about driving innovation in technology and finance to make the US financial system more resilient. 
+        I founded Hedgehog to prevent bank failures, and want to bring wall street technology to main street banks to help them better serve their customers. 
         <br></br>
         <br></br>
-        In addition to banking, I spend a lot of time thinking about monetary and fiscal policy on money markets and the broader economy. 
+        In my graduate research, I spend a lot of time thinking about money markets and fed policy.
         If you want to geek out about any of these topics - hit me up.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -118,9 +118,9 @@ export const aboutData: About = {
     {label: 'Location', text: 'Stanford, CA', Icon: MapIcon},
     //{label: 'Age', text: '29', Icon: CalendarIcon},
     //{label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Being Outside, Brazilian Jiu-Jitsu, Story Games', Icon: SparklesIcon},
-    {label: 'School', text: 'Stanford University', Icon: AcademicCapIcon},
-    {label: 'Organizations', text: 'Stanford Blockchain Accelerator', Icon: OfficeBuildingIcon},
+    //{label: 'Interests', text: 'Being outside and playing piano', Icon: SparklesIcon},
+    //{label: 'School', text: 'Stanford University', Icon: AcademicCapIcon},
+    //{label: 'Organizations', text: 'Stanford Blockchain Accelerator', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -195,9 +195,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Hedgehog',
+    description: 'Preventing bank failures with interest rate forecasting and analytics',
+    url: 'https://www.hedgehogcompliance.com',
     image: porfolioImage1,
   },
   {
