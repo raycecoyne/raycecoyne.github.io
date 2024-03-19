@@ -74,15 +74,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am passionate about driving innovation in technology and finance to make the US financial system more resilient. 
-        I founded Hedgehog to prevent bank failures, and want to bring wall street technology to main street banks to help them better serve their customers. 
+        I believe in making US financial system more resilient with creativite, high-quality software. I founded Hedgehog 
+        to bring wall street technology to main street banks and help them better serve their customers. 
         <br></br>
-        <br></br>
-        In my graduate research, I spend a lot of time thinking about money markets and fed policy.
-        If you want to geek out about any of these topics - hit me up.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time I enjoy <strong className="text-stone-100">hiking</strong> through alpine forests,
+        In my free time I enjoy <strong className="text-stone-100">hiking</strong>,
         rocking out to <strong className="text-stone-100">musicals</strong>, and building 
         <strong className="text-stone-100"> computers</strong>.
       </p>
