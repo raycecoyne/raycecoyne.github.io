@@ -1,7 +1,9 @@
-/* eslint-env node */
-
-// https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // Enable static export
+  images: {
+    unoptimized: true, // Disable Image Optimization API for static export
+  },
   webpack: config => {
     const oneOfRule = config.module.rules.find(rule => rule.oneOf);
 
@@ -20,18 +22,7 @@ const nextConfig = {
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
-  /*
-  svgo: {
-    multipass: true,
-    plugins: ['removeDimensions'],
-  },
-  strictMode: true,
-  swcMinify: true,
-  */
   trailingSlash: false,
-  images: {
-    domains: ['images.unsplash.com', 'source.unsplash.com'],
-  },
 };
 
 module.exports = nextConfig;
