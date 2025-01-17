@@ -11,6 +11,23 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+//import TwitterIcon from '../components/Icon/TwitterIcon';
+//import heroImage = '/images/header-background.webp';
+import heroImage from '../images/background.jpg';
+import porfolioImage1 from '../images/portfolio/hedgehog.png';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import profilepic from '../images/profilepic.jpg';
+import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -23,23 +40,6 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
-//import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-//import TwitterIcon from '../components/Icon/TwitterIcon';
-//import heroImage = '/images/header-background.webp';
-const heroImage = '/images/background.jpg';
-const porfolioImage1 = '/images/portfolio/hedgehog.png';
-const porfolioImage2 = '/images/portfolio/portfolio-2.jpg';
-const porfolioImage3 = '/images/portfolio/portfolio-3.jpg';
-const porfolioImage4 = '/images/portfolio/portfolio-4.jpg';
-const porfolioImage5 = '/images/portfolio/portfolio-5.jpg';
-const porfolioImage6 = '/images/portfolio/portfolio-6.jpg';
-const porfolioImage7 = '/images/portfolio/portfolio-7.jpg';
-const porfolioImage8 = '/images/portfolio/portfolio-8.jpg';
-const porfolioImage9 = '/images/portfolio/portfolio-9.jpg';
-const porfolioImage10 = '/images/portfolio/portfolio-10.jpg';
-const porfolioImage11 = '/images/portfolio/portfolio-11.jpg';
-const profilepic = '/images/profilepic.jpg';
-const testimonialImage = '/images/testimonial.webp';
 
 
 /**
@@ -118,8 +118,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Founder and proud dog mom. My latest research is focused on interest rates and the US banking system, 
-  and I am fortunate enough to be working on this with two of my best friends. `,
+  description: `Rayce is proud to be a founder and dog mom. Her latest research is focused on interest rates and the US banking system, 
+  and she is thankful to be working on this with two of her best friends. `,
   aboutItems: [
     {label: 'Location', text: 'Stanford, CA', Icon: MapIcon},
     //{label: 'Age', text: '29', Icon: CalendarIcon},
